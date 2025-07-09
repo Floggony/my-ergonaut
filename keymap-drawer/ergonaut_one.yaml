@@ -38,10 +38,10 @@ layers:
   - /
   - Gui+Z
   - {t: ESCAPE, h: LEFT ALT}
-  - {t: lower, h: toggle}
+  - lower
   - ␣
   - ENTER
-  - {t: raise, h: toggle}
+  - raise
   - Ctl+␣
   lower:
   - {t: F1, h: Gui}
@@ -81,13 +81,54 @@ layers:
   - \
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   - ⌫
   - DELETE
-  raise: ['', '', '', '', '', '', PAGE UP, '', UP ARROW, '', PRINTSCREEN, '', '', '', '', '', '', Home, End, LEFT ARROW, DOWN ARROW, →, Pause Break, '', '', '', _,
-    '', '', '', PAGE DOWN, VOLUME DOWN, Vol Up, +, '', MUTE, '', '', '', '', '', '']
+  raise:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE UP
+  - ''
+  - UP ARROW
+  - ''
+  - PRINTSCREEN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Home
+  - End
+  - LEFT ARROW
+  - DOWN ARROW
+  - →
+  - Pause Break
+  - ''
+  - ''
+  - ''
+  - _
+  - ''
+  - ''
+  - ''
+  - PAGE DOWN
+  - VOLUME DOWN
+  - Vol Up
+  - +
+  - ''
+  - MUTE
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
   adjust:
   - F12
   - F1
@@ -126,8 +167,8 @@ layers:
   - BT CLR ALL
   - Reset
   - {t: ▽, type: trans}
-  - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
