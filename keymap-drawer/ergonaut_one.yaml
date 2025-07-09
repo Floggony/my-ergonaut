@@ -123,12 +123,12 @@ layers:
   - +
   - ''
   - MUTE
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   adjust:
   - F12
   - F1
@@ -156,10 +156,10 @@ layers:
   - BT CLR
   - Reset
   - Boot
+  - {t: ▽, type: trans}
   - ''
   - ''
-  - ''
-  - ''
+  - Z
   - ''
   - ''
   - ''
@@ -169,6 +169,6 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
