@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - '['
-  - Gui
+  - Ctl+LEFT CONTROL
   - A
   - S
   - D
@@ -36,15 +36,15 @@ layers:
   - ','
   - .
   - /
-  - Gui+Z
+  - Ctl+Z
   - {t: ESCAPE, h: LEFT ALT}
   - lower
   - ␣
   - ENTER
   - raise
-  - Ctl+␣
+  - Ctl+LEFT SHIFT
   lower:
-  - {t: F1, h: Gui}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
